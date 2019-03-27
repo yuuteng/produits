@@ -1,0 +1,17 @@
+{
+    "Porsche": {
+        "id": "545b4e3dfaee4c10def3db23",
+        "color": "red",
+        "price": "9000e"
+    },
+    "Audi": {
+        "id": "545b4e3dfaee4c10def3db25",
+        "color": "yellow",
+        "price": "7000e"
+    },
+    "Volkswagen": {
+        "id": "545b4e3dfaee4c10def3db24",
+        "color": "black",
+        "price": "5000e"
+    }
+} 
