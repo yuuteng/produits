@@ -18,13 +18,17 @@ while True:
     elif 'id:' in command:
         s.send(command.encode('utf-8'))
         response = s.recv(1024)
-        json_response = json.loads(response.decode('utf-8'))
-        print(json_response)
+        if response.decode('utf-8') != 'notexist':
+            json_response = json.loads(response.decode('utf-8'))
+            print(json_response)
+        else:
+            print("This id is not exist")
+
     # eg: 'exit'
     elif command == "\'exit\'":
         break
     else:
-        print("Input Wrong")
+        print("Wrong Input")
 
 s.send(b'exit')
 s.close()
