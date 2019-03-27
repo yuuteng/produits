@@ -4,11 +4,11 @@ git clone https://github.com/yuuteng/produits.git
 
 cd produits
 
-//start a server
+//start a server listening port 1919
 
 python server.py
 
-//start a client listening port 1919
+//start a client
 
 python client.py
 
